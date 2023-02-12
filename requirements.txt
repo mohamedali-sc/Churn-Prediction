@@ -3,7 +3,3 @@ import pickle
 import numpy as np
 from app import predict_show_page
 
-def load_model():
-    with open("savedmodel.pkl","rb") as file:
-        data=pickle.load(file)
-    return data
